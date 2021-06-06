@@ -1,0 +1,160 @@
+
+@media (max-width: 1199.98px){
+    .content-padding {
+        margin-bottom: 100px;
+    }
+    section.hero {
+        height: 45vh;
+    }
+    .text-box {
+        top: 18%;
+        left: 80%;
+    }
+}
+@media (max-width: 991.98px) {
+    .text-box{
+        left: 45%;
+    }
+    .service .text-box{
+        left: -10%;
+    }
+    .content-padding {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width:767.98px) {
+    .header{
+        height: 45px;
+        top: calc(100vh - 45px);
+        display: flex;
+        align-items: center;
+    }
+    .header i{
+        font-size: 20px;
+    }
+    .header-content .logo{
+        position: fixed;
+        text-align: center;
+        top: 0;
+        left: 0;
+        height: 85px;
+        padding: 5px 0;
+        width: 100%;
+        background-color: #e1e1e1;
+    }
+    .header-content i{
+        font-size: 18px;
+    }
+    .close-btn {
+    margin-bottom: 20px;
+}
+section.hero {
+    height: 55vh;
+}
+    .sidebar ul{
+        padding: 0 10px;
+    }
+    .sidebar ul li{
+        padding: 5px 0;
+    }
+    .sidebar ul li a{
+        font-size: 18px;
+    }
+    .sidebar ul li:last-child{
+        padding-bottom: 15px;
+    }
+    .contact-btn{
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    .section-title h2{
+        font-size: 20px;
+    }
+    .content-padding{
+        margin: 30px 0 200px;
+    }
+    .text-box{
+        top: 80%;
+        left: 40%;
+        padding: 20px;
+        height: 250px;
+        width: 300px;
+    }
+    .text-box{
+        width: 95%;
+        left: 20%;
+    }
+    .text-box.rev-left{
+        left: -10%;
+    }
+    .text-box a{
+        font-size: 14px;
+        padding: 5px 8px;
+        border-radius: 5px;
+
+    }
+    .footer,
+    .ft-right{
+        text-align: center;
+    }
+    .footer .contact-btn{
+        font-size: 20px;
+        padding: 12px 30px;
+    }
+    .banner-img {
+        height: 10vh;
+    }
+    .banner-img h1 {
+        font-size: 25px;
+    }
+    /* Client Page Start */
+    .client .client-summary h3 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .client .client-summary p,
+    .client .client-summary a{
+        font-size: 15px;
+        line-height: inherit;
+    }
+    /* Client Page End */
+}
+
+@media (max-width:575.98px) {
+    p{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    section.hero {
+        height: 25vh;
+    }
+    .text-box h3 {
+        font-size: 16px;
+    }
+    .text-box p {
+        font-size: 12px;
+    }
+    .text-box{
+        top: 80%;
+        left: 20%;
+        padding: 20px;
+        height: 200px;
+        width: 90%;
+    }
+    .text-box{
+        width: 100%;
+        left: 23%;
+    }
+    .text-box.rev-left{
+        left: -10%;
+    }
+    .footer h3 {
+        font-size: 18px;
+      }
+      .footer ul li {
+        font-size: 16px;
+    }
+    .footer .contact-btn{
+        font-size: 16px;
+    }
+}
